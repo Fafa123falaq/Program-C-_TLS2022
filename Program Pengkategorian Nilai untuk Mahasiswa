@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+   
+     int main(){   
+     int rentang;
+     while(1){
+        cout<<"Masukkan Jumlah Nilai :" ;
+        cin>>rentang;
+        if(rentang >= 85){
+            cout<<"Kategori = A";
+         }else if(rentang >=65){
+            cout<<"Kategori = B";
+         }else if(rentang >=45){
+            cout<<"Kategori = C";
+         }else if(rentang >=25){
+            cout<<"Kategori = D";
+         }else if(rentang >=0){
+            cout<<"Kategori = E";
+         }
+         cout<<"\n";
+     }
+         return 0;
+     }
